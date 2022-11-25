@@ -9,7 +9,6 @@ Nossa missão é tornar as brincadeiras nas ruas um passatempo muito acessível 
 E nossa visão é desconectar as crianças da internet, trazer elas para brincar na rua e ensiná-las a fazer brinquedos recicláveis para jogar.
 
 </p>
-
 <h2 align = "center> O que fazemos? </h2>
 <br>
 <p>
