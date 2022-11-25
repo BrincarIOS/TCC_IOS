@@ -7,9 +7,7 @@ Somos a (............), um site dedicado a atender crianças entre 5 a 11 anos d
  Fomos criados em 2022, a partir de um projeto de trazer entretenimento que nossos pais e até mesmo nós brincávamos .
 Nossa missão é tornar as brincadeiras nas ruas um passatempo muito acessível para as crianças conectadas de hoje.
 E nossa visão é desconectar as crianças da internet, trazer elas para brincar na rua e ensiná-las a fazer brinquedos recicláveis para jogar.
-
 </p>
-
 <h2 align = "center> O que fazemos? </h2>
 <br>
 <p>
