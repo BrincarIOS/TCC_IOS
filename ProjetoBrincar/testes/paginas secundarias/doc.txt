@@ -1,0 +1,7 @@
+if(bot <= 10){
+    document.querySelector("#menuOculto").style.transform = "translateY(1000px)";
+    document.querySelector("#menuOculto").style.transition = "0.4s";
+} else {
+    document.querySelector("#menuOculto").style.transform = "translateY(-1000px)";
+    document.querySelector("#menuOculto").style.transition = "0.2s";
+}
