@@ -1,0 +1,92 @@
+#header{
+    z-index: 5;
+    position: fixed !important;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, darkviolet, #781c77);
+    border-bottom: 1px solid violet;
+    box-shadow: 0 0 10px black;
+}
+#button-nav{
+    padding-right: 20px;
+    background-color: #781c77;
+    border: 1px solid violet;
+}
+#button-nav:focus{
+    box-shadow: 0 0 3px violet;
+}
+#form-nav{
+    padding-right: 20px;
+}
+.link-main{
+    border-right: 1px solid violet;
+    padding-right: 28px;
+    padding-left: 13px;
+    height: 100%;
+}
+.link{
+    color: #FF8900 !important;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+    transition: all 0.4s ease;
+}
+.link:hover{
+    color: #FFCC00 !important;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+}   
+.menu-superior{
+    opacity: 1;
+    z-index: 1;
+    position: fixed;
+    transition: all 0.4s ease;
+}
+.menu-superior:hover{
+    opacity: 0;
+}
+.centro{
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+}
+.home{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.home-superior{
+    opacity: 1;
+    z-index: 1;
+    position: fixed;
+    transition: all 0.4s ease;
+}
+.home-superior:hover{
+    opacity: 0;
+}
+.btn-pesquisa{
+    border: 1px solid #FF8900;
+    color: #FF8900;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+}
+.btn-pesquisa:hover{
+    border: 1px solid #FFCC00 !important;
+    color: #781c77 !important;
+    background-color: #FFCC00 !important;
+    box-shadow: 0 0 5px #FFCC00;
+}
+.pesquisa{
+    background-color: violet;
+    border: 2px solid #FF8900 !important;
+}
+.pesquisa::placeholder{
+    color: darkviolet;
+}
+.pesquisa:focus{
+    border: 2px solid #FFCC00 !important;
+    background-color: violet;
+    box-shadow: none;
+}

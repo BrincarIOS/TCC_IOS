@@ -1,0 +1,25 @@
+.carrosel-conteiner{
+    max-height: 93vh;
+}
+.carrosel-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+@media only screen and (max-width: 960px) {
+    .carrosel-conteiner{
+        max-height: 55vh;
+    }
+}
+.corpo{
+    padding-top: 35px;
+    background-image: url("img/background/fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.texto{
+    text-align: center;
+}
+.texto-secundario{
+    background-color: #781c77;
+}
