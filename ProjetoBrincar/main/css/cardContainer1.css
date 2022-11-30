@@ -1,0 +1,39 @@
+*{
+    border: 1px solid darkblue;
+}
+.container00{
+    display: flex;
+    padding: 5vw;
+}
+.container1{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fda616;
+    padding: 10px;
+    max-width: 40vw;
+}
+.container2{
+    border: 2px solid #ffff8b;
+    border-radius: 10px;
+    background-color: #ffff8b;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container-img{
+    height: 50vh;
+    width: 100vw;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.container-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container-texto{
+padding-top: 20px;
+line-height: 1.6rem;
+max-height: 50vh;
+width: 100vw;
+}
