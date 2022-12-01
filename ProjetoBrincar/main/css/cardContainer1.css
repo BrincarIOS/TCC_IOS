@@ -100,9 +100,10 @@
     .container00 {
         flex-direction: column;
     }
+
     .container1 {
         max-width: none;
         width: 89vw;
     }
-    
+
 }
