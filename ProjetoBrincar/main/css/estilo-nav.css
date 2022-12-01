@@ -6,12 +6,12 @@
     border-bottom: 1px solid black;
     box-shadow: 0 0 10px black;
 }
-#button-nav{
+#botao-nav{
     padding-right: 20px;
     background-color: #fda616;
     border: 1px solid #ffff8b;
 }
-#button-nav:focus{
+#botao-nav:focus{
     box-shadow: 0 0 3px #ffff8b;
 }
 #form-nav{

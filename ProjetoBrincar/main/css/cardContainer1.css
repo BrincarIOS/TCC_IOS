@@ -1,18 +1,17 @@
-*{
-    border: 1px solid darkblue;
-}
-.container00{
+.container00 {
     display: flex;
     padding: 5vw;
 }
-.container1{
+
+.container1 {
     border: 2px solid black;
     border-radius: 20px;
     background-color: #fda616;
     padding: 10px;
     max-width: 40vw;
 }
-.container2{
+
+.container2 {
     border: 2px solid #ffff8b;
     border-radius: 10px;
     background-color: #ffff8b;
@@ -21,19 +20,89 @@
     padding: 0;
     overflow: hidden;
 }
-.container-img{
+
+.container-img {
     height: 50vh;
     width: 100vw;
     background-color: aliceblue;
     overflow: hidden;
 }
-.container-img img{
+
+.container-img img {
     max-width: 100%;
     max-height: 100%;
 }
-.container-texto{
-padding-top: 20px;
-line-height: 1.6rem;
-max-height: 50vh;
-width: 100vw;
+
+.container-texto {
+    padding: 5px;
+    line-height: 1.6rem;
+    max-height: 50vh;
+    width: 100vw;
+}
+
+.container-texto p {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.botao {
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    background-color: #fda616;
+}
+
+.botao:hover {
+    border: 1px solid black !important;
+    color: black !important;
+    background-color: #FFCC00 !important;
+    box-shadow: 0 0 5px black;
+}
+
+@media only screen and (max-width: 1100px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    .container-img {
+        height: 30vh;
+        width: 100%;
+        background-color: aliceblue;
+        overflow: hidden;
+    }
+
+    .container-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .container-texto {
+        padding: 5px;
+        line-height: 1.6rem;
+        max-height: 30vh;
+        width: 100%;
+    }
+
+    .container-texto p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .container00 {
+        flex-direction: column;
+    }
+    .container1 {
+        max-width: none;
+        width: 89vw;
+    }
+    
 }
