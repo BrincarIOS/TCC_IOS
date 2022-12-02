@@ -1,31 +1,41 @@
-.carrosel-conteiner{
-    max-height: 93vh;
-}
-.carrosel-img{
+.carrosel-img {
     max-height: 100%;
     max-width: 100%;
 }
+
+.carrosel-conteiner{
+    max-height: 95vh;
+}
+
+@media only screen and (max-width: 1100px) {
+    .carrosel-conteiner {
+        max-height: 70vh;
+    }
+}
+
 @media only screen and (max-width: 960px) {
-    .carrosel-conteiner{
+    .carrosel-conteiner {
         max-height: 55vh;
     }
 }
+
 @media only screen and (max-width: 570px) {
-    .carrosel-conteiner{
+    .carrosel-conteiner {
         max-height: 40vh;
     }
 }
-.corpo{
-    padding-top: 35px;
-    background-image: linear-gradient(to bottom, #000000);
-    background-size: cover;
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #febc34, #ffffff);
+
+@media only screen and (max-width: 500px) {
+    .carrosel-conteiner {
+        max-height: 35vh;
+    }
 }
-.texto{
+
+.texto {
     text-align: center;
 }
-.texto-secundario{
+
+.texto-secundario {
     color: #000000;
     background-color: #fda616;
     border: 2px solid #000000;

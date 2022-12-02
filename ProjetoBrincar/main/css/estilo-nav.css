@@ -17,6 +17,10 @@
     box-shadow: 0 0 3px #ffff8b;
 }
 
+.logoLinck{
+    font-family: Permanent Marker;
+}
+
 #form-nav {
     padding-right: 20px;
 }
@@ -29,6 +33,20 @@
 
 .link:hover {
     color: black !important;
+}
+
+.dropMenu{
+    background-image: linear-gradient(to top, #fda616, #febc34);
+    box-shadow: 0 0 10px black;
+}
+
+.dropItem{
+    color: black;
+    font-weight: bold;
+}
+
+.dropItem:hover{
+    background-color: #ffff8b;
 }
 
 .menu {
@@ -106,4 +124,11 @@
     border: 2px solid black !important;
     background-color: #ffff8b;
     box-shadow: none;
+}
+
+.cards {
+    padding-top: 35px;
+    background-image: linear-gradient(to bottom, #000000);
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #febc34, #ffff8b);
 }

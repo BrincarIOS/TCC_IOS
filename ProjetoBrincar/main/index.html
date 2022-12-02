@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/estilo-nav.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/cardContainer1.css">
+    <link rel="stylesheet" href="css/cardContainer2.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,8 +27,8 @@
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="css/img/logo/logo.png" alt="Amarelinha" width="100" height="30">
+                <a class="navbar-brand logoLinck" href="#">
+                    Amarelinha
                 </a>
                 <button id="botao-nav" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -42,12 +45,12 @@
                                 aria-expanded="false">
                                 Brinquedos
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Faça você mesmo!</a></li>
+                            <ul class="dropdown-menu dropMenu">
+                                <li><a class="dropdown-item dropItem" href="#">Faça você mesmo!</a></li>
                                 <li>
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider dropItem">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Doação de brinquedos/roupas</a></li>
+                                <li><a class="dropdown-item dropItem" href="#">Doação de brinquedos/roupas</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -55,13 +58,13 @@
                                 aria-expanded="false">
                                 Brincadeiras
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item menu" href="#">Brincadeiras</a></li>
-                                <li><a class="dropdown-item" href="#">Desenhos para colorir</a></li>
+                            <ul class="dropdown-menu dropMenu">
+                                <li><a class="dropdown-item dropItem" href="#">Brincadeiras</a></li>
+                                <li><a class="dropdown-item dropItem" href="#">Desenhos para colorir</a></li>
                                 <li>
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider dropMenu">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Importância do brincar</a></li>
+                                <li><a class="dropdown-item dropItem" href="#">Importância do brincar</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -79,7 +82,7 @@
     </header>
 
     <!-- Corpo do Site -->
-    <article>
+    <article class="corpo">
 
         <!-- Carrosel -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -113,13 +116,15 @@
             </button>
         </div>
 
-        <!-- Container de info -->
-        <div class="corpo">
+        <!-- Container de cards -->
+        <div class="cards">
             <div class="texto">
                 <h1><span class="badge texto-secundario">O que vai encontrar aqui?</span></h1>
                 <br>
                 <br>
-                <div class="container00">
+            </div>
+            <div class="cardContainer">
+                <div class="containerCard01">
                     <section class="container1">
                         <div class="container2">
                             <div class="container-img">
@@ -131,21 +136,65 @@
                                     culpa aliquid, nihil modi eaque repudiandae quasi est excepturi maxime ipsam ab
                                     facere iure suscipit, aut expedita perspiciatis deleniti.</p><br>
                                 <div>
-                                    <button type="button" class="btn btn-outline-warning botao">Warning</button>
+                                    <button type="button" class="btn btn-outline-warning botao">Ler mais</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="containerCard02">
+                    <section class="container1">
+                        <div class="container2">
+                            <div class="container-img">
+                                <img src="css/img/home/REMOVER.png" alt="imagem">
+                            </div>
+                            <div class="container-texto">
+                                <h4>Texto</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit deserunt laudantium
+                                    culpa aliquid, nihil modi eaque repudiandae quasi est excepturi maxime ipsam ab
+                                    facere iure suscipit, aut expedita perspiciatis deleniti.</p><br>
+                                <div>
+                                    <button type="button" class="btn btn-outline-warning botao">Ler mais</button>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
-
-        </div>
         </div>
     </article>
 
     <!-- Footer -->
     <footer>
-
+        <div class="containerFooter">
+            <div class="social">
+                <div class="logoFooter">
+                    <img src="css/img/logo/logo.png" alt="Amarelinha" width="80%" height="80%">
+                </div>
+                <div class="d-flex">
+                    <div class="vr"></div>
+                  </div>
+                <div class="socialLinks">
+                    <div>
+                        <img src="css/img/facebook.png" alt="Social" width="30vh" height="30vh"> <a href="#">Amarelinha</a>
+                    </div>
+                    <div>
+                        <img src="css/img/instagram.png" alt="Social" width="30vh" height="30vh"> <a href="#">Amarelinha</a>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="vr"></div>
+                  </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <p> Copyright &copy;2022</p>
+        </div>
     </footer>
 
     <!-- Scripts -->

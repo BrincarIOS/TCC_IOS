@@ -1,0 +1,73 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerCard02 {
+    display: flex;
+    padding: 4vw;
+}
+
+.containerCard02 .container1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fda616;
+    padding: 10px;
+    width: 90vw;
+    box-shadow: 0 0 10px black;
+}
+
+.containerCard02 .container2 {
+    border: 2px solid #ffff8b;
+    border-radius: 10px;
+    background-color: #ffff8b;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.containerCard02 .container-img {
+    height: 28vh;
+    width: 100%;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.containerCard02 .container-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.containerCard02 .container-texto {
+    padding: 5px;
+    line-height: 1.6rem;
+    max-height: 50vh;
+    width: 100%;
+}
+
+.containerCard02 .container-texto p {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.containerCard02 .botao {
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    background-color: #fda616;
+}
+
+.containerCard02 .botao:hover {
+    border: 1px solid black !important;
+    color: black !important;
+    background-color: #FFCC00 !important;
+    box-shadow: 0 0 5px black;
+}
