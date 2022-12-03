@@ -13,22 +13,79 @@
    text-align: center;
    padding-top: 20px;
 }
-.social{
+
+.social {
    text-align: center;
    display: flex;
 }
-.logoFooter{
+
+.logoFooter {
    display: flex;
    justify-content: center;
    align-items: center;
    padding: 80px;
 }
-.socialLinks{
+
+.frase{
+   display: flex;
+   justify-content: center;
+   align-self: center;
+}
+
+.frase h4{
+   color: black;
+   font-family: Permanent Marker;
+   padding: 20px;
+}
+
+.socialLinks {
    padding: 20px;
    margin: 20px;
    display: flex;
    flex-direction: column;
 }
-.socialLinks div {
+
+.socialLinks img {
    margin: 10px;
+}
+
+.contatar {
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   padding: 10px;
+   text-align: center;
+   color: black;
+}
+
+.contatar h5{
+   font-family: Permanent Marker;
+}
+
+.contatar input {
+   width: 70%;
+
+}
+
+.contatar input,
+.contatar textarea {
+   margin-bottom: 10px;
+   border: 0;
+   border-radius: 5px;
+   outline: none;
+   background-color: #ffff8b;
+}
+
+.btn-contato {
+   border: 1px solid black;
+   color: black;
+   font-weight: bold;
+   box-shadow: 0 0 5px black;
+}
+
+.btn-contato:hover {
+   border: 1px solid black !important;
+   color: black !important;
+   background-color: #FFCC00 !important;
+   box-shadow: 0 0 5px black;
 }
