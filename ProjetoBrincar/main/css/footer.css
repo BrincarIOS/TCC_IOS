@@ -1,14 +1,19 @@
 .containerFooter {
-   background-image: linear-gradient(to top, #fda616, #febc34);
-   border-top: 1px solid black;
+   background-color: #ff5;
    box-shadow: 0 0 10px black;
    overflow: hidden;
 }
 
+@media only screen and (max-width: 1350px) {
+   .social {
+      flex-direction: column;
+   }
+}
+
 .footer2 {
-   background-image: linear-gradient(to top, #fda616, #febc34);
+   background-color: #84b;
    overflow: hidden;
-   color: black;
+   color: #ff5;
    font-weight: bold;
    text-align: center;
    padding-top: 20px;
@@ -26,16 +31,75 @@
    padding: 80px;
 }
 
-.frase{
+.img-Logo {
+   border-radius: 50px;
+   overflow: hidden;
+}
+
+.frase {
    display: flex;
    justify-content: center;
    align-self: center;
 }
 
-.frase h4{
-   color: black;
+.frase h4 {
+   cursor: default;
+   background-color: #84b;
+   border-radius: 5px;
+   color: #ff5;
    font-family: Permanent Marker;
-   padding: 20px;
+   margin: 10px;
+   padding: 10px;
+}
+
+.rede {
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+}
+
+.insta-top {
+   transition: all 0.3s linear;
+   background-color: #ff5;
+   padding: 5px;
+   margin: 5px;
+   position: relative;
+   left: 50px;
+   z-index: 1;
+}
+
+.insta-top:hover {
+   opacity: 0;
+}
+
+.insta {
+   background-color: #84b;
+   border-radius: 5px;
+   padding: 5px;
+   overflow: hidden;
+   margin: 5px;
+}
+
+.face-top {
+   transition: all 0.3s linear;
+   background-color: #ff5;
+   padding: 5px;
+   margin: 5px;
+   z-index: 1;
+}
+
+.face-top:hover {
+   opacity: 0;
+}
+
+.face {
+   background-color: #84b;
+   border-radius: 5px;
+   padding: 5px;
+   overflow: hidden;
+   margin: 5px;
+   position: relative;
+   right: 50px;
 }
 
 .socialLinks {
@@ -43,10 +107,6 @@
    margin: 20px;
    display: flex;
    flex-direction: column;
-}
-
-.socialLinks img {
-   margin: 10px;
 }
 
 .contatar {
@@ -58,8 +118,10 @@
    color: black;
 }
 
-.contatar h5{
+.contatar h5 {
    font-family: Permanent Marker;
+   color: #84b;
+   cursor: default;
 }
 
 .contatar input {
@@ -73,19 +135,19 @@
    border: 0;
    border-radius: 5px;
    outline: none;
-   background-color: #ffff8b;
+   background-color: white;
 }
 
 .btn-contato {
-   border: 1px solid black;
-   color: black;
+   background-color: #ff5;
+   color: #84b;
    font-weight: bold;
    box-shadow: 0 0 5px black;
 }
 
 .btn-contato:hover {
-   border: 1px solid black !important;
-   color: black !important;
-   background-color: #FFCC00 !important;
-   box-shadow: 0 0 5px black;
+   border: none;
+   color: #ff5 !important;
+   background-color: #84b !important;
+   box-shadow: 0 0 1px black;
 }

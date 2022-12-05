@@ -12,18 +12,17 @@
 }
 
 .containerCard02 .container1 {
-    border: 2px solid black;
+    border: 2px solid #84b;
     border-radius: 20px;
-    background-color: #fda616;
+    background-color: #ff5;
     padding: 10px;
     width: 90vw;
     box-shadow: 0 0 10px black;
 }
 
 .containerCard02 .container2 {
-    border: 2px solid #ffff8b;
     border-radius: 10px;
-    background-color: #ffff8b;
+    background-color: white;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -32,9 +31,12 @@
 }
 
 .containerCard02 .container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 28vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -58,16 +60,15 @@
 }
 
 .containerCard02 .botao {
-    border: 1px solid black;
-    color: black;
+    color: #84b;
     font-weight: bold;
     box-shadow: 0 0 5px black;
-    background-color: #fda616;
+    background-color: #ff5;
 }
 
 .containerCard02 .botao:hover {
-    border: 1px solid black !important;
-    color: black !important;
-    background-color: #FFCC00 !important;
-    box-shadow: 0 0 5px black;
+    border:none;
+    color: #ff5 !important;
+    background-color: #84b !important;
+    box-shadow: 0 0 1px black;
 }
