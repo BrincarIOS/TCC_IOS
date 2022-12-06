@@ -57,14 +57,14 @@
     -webkit-box-orient: vertical;
 }
 
-.containerDesenho .botao {
+.containerDesenho .btn {
     color: #84b;
     font-weight: bold;
     box-shadow: 0 0 5px black;
     background-color: #ff5;
 }
 
-.containerDesenho .botao:hover {
+.containerDesenho .btn:hover {
     border: none;
     color: #ff5 !important;
     background-color: #84b !important;
