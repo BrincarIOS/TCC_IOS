@@ -126,7 +126,13 @@
 }
 
 .cards {
-    padding-top: 35px;
+    padding-top: 76px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #ff5, #fff);
+}
+
+.corpo{
+    padding-top: 135px;
     background-size: cover;
     background-image: linear-gradient(to bottom, #ff5, #fff);
 }

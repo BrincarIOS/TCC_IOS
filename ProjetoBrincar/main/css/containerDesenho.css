@@ -1,0 +1,85 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.containerDesenho {
+    display: flex;
+    padding: 4vw;
+}
+
+.containerDesenho .container1 {
+    border: 2px solid #84b;
+    border-radius: 20px;
+    background-color: #ff5;
+    padding: 10px;
+    max-width: 40vw;
+    box-shadow: 0 0 10px black;
+}
+
+.containerDesenho .container2 {
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.containerDesenho .container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.containerDesenho .container-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.containerDesenho .container-texto {
+    padding: 15px;
+    line-height: 1.6rem;
+    height: 10%;
+    width: 100%;
+}
+
+.containerDesenho .container-texto p {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.containerDesenho .botao {
+    color: #84b;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    background-color: #ff5;
+}
+
+.containerDesenho .botao:hover {
+    border: none;
+    color: #ff5 !important;
+    background-color: #84b !important;
+    box-shadow: 0 0 1px black;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .carContainer01 {
+        flex-direction: column;
+    }
+
+    .containerDesenho .container1 {
+        max-width: none;
+        width: 89vw;
+    }
+
+}
