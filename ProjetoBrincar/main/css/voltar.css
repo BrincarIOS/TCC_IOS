@@ -1,0 +1,22 @@
+.voltar{
+    position: absolute;
+    font-size: xx-large;
+    color: #ff5;
+    padding: 10px;
+    margin: 20px;
+}
+
+.voltar a{
+    box-sizing: border-box;
+    height: 65px;
+    width: 65px;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #84b;
+    text-decoration: none;
+    color: #ff5;
+    font-weight: bolder;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

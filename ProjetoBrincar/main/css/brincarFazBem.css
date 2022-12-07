@@ -1,0 +1,13 @@
+.containerCard03 .container2 {
+    flex-direction: column !important;
+}
+
+.containerCard03 .container-img {
+    height: 35vh !important;
+    width: 100%;
+}
+
+.containerCard03 .container-img img {
+    width: 100%;
+    max-height: none !important;
+}
