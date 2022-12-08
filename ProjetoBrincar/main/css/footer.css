@@ -11,7 +11,7 @@
 }
 
 .footer2 {
-   background-color: #84b;
+   background-color: #000;
    overflow: hidden;
    color: #ff5;
    font-weight: bold;
@@ -49,7 +49,7 @@
 
 .frase h4 {
    cursor: default;
-   background-color: #84b;
+   background-color: #000;
    border-radius: 5px;
    color: #ff5;
    font-family: Permanent Marker;
@@ -78,7 +78,7 @@
 }
 
 .insta {
-   background-color: #84b;
+   background-color: #000;
    border-radius: 5px;
    padding: 5px;
    overflow: hidden;
@@ -98,7 +98,7 @@
 }
 
 .face {
-   background-color: #84b;
+   background-color: #000;
    border-radius: 5px;
    padding: 5px;
    overflow: hidden;
@@ -125,13 +125,8 @@
 
 .contatar h5 {
    font-family: Permanent Marker;
-   color: #84b;
+   color: #000;
    cursor: default;
-}
-
-.contatar input {
-   width: 70%;
-
 }
 
 .contatar input,
@@ -145,7 +140,7 @@
 
 .btn-contato {
    background-color: #ff5;
-   color: #84b;
+   color: #000;
    font-weight: bold;
    box-shadow: 0 0 5px black;
 }
@@ -153,6 +148,6 @@
 .btn-contato:hover {
    border: none;
    color: #ff5 !important;
-   background-color: #84b !important;
+   background-color: #000 !important;
    box-shadow: 0 0 1px black;
 }

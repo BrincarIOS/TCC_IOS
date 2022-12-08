@@ -10,7 +10,7 @@
 }
 
 .containerEquipe .container1 {
-    border: 2px solid #84b;
+    border: 2px solid #000;
     border-radius: 20px;
     background-color: #ff5;
     padding: 10px;
@@ -73,7 +73,7 @@
 }
 
 .containerEquipe .btn {
-    color: #84b;
+    color: #000;
     font-weight: bold;
     box-shadow: 0 0 5px black;
     background-color: #ff5;
@@ -82,7 +82,7 @@
 .containerEquipe .btn:hover {
     border: none;
     color: #ff5 !important;
-    background-color: #84b !important;
+    background-color: #000 !important;
     box-shadow: 0 0 1px black;
 }
 

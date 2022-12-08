@@ -12,7 +12,7 @@
 }
 
 .containerCardMap .container1 {
-    border: 2px solid #84b;
+    border: 2px solid #000;
     border-radius: 20px;
     background-color: #ff5;
     padding: 10px;
@@ -46,19 +46,11 @@
 .containerCardMap .container-texto {
     padding: 15px;
     line-height: 1.6rem;
-    height: 30vh;
     width: 100%;
 }
 
-.containerCardMap .container-texto p {
-    display: -webkit-box;
-    -webkit-line-clamp: 7;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-}
-
 .containerCardMap .botao {
-    color: #84b;
+    color: #000;
     font-weight: bold;
     box-shadow: 0 0 5px black;
     background-color: #ff5;
@@ -67,7 +59,7 @@
 .containerCardMap .botao:hover {
     border: none;
     color: #ff5 !important;
-    background-color: #84b !important;
+    background-color: #000 !important;
     box-shadow: 0 0 1px black;
 }
 
@@ -90,14 +82,7 @@
     .containerCardMap .container-texto {
         padding: 5px;
         line-height: 1.6rem;
-        max-height: 30vh;
         width: 100%;
-    }
-    .containerCardMap .container-texto p {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        overflow: hidden;
-        -webkit-box-orient: vertical;
     }
 }
 

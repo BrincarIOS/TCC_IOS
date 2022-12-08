@@ -9,18 +9,18 @@
 #botao-nav {
     padding-right: 20px;
     background-color: #ff5;
-    border: 2px solid #84b;
+    border: 2px solid #000;
     box-shadow: 0 0 3px black;
 }
 
 .logoLinck{
     font-family: Permanent Marker;
     font-size: x-large;
-    color: #84b !important;
+    color: #000 !important;
 }
 
 .link {
-    color: #84b;
+    color: #000;
     font-weight: bold;
     transition: all 0.4s ease;
     border-radius: 3px;
@@ -32,12 +32,12 @@
 
 .link:focus{
     color: #ff5 !important;
-    background-color: #84b;
+    background-color: #000;
 }
 
 .link:hover {
     color: #ff5 !important;
-    background-color: #84b;
+    background-color: #000;
 }
 
 .dropMenu{
@@ -52,7 +52,7 @@
 
 .dropItem:hover{
     color: #ff5 !important;
-    background-color: #84b;
+    background-color: #000;
 }
 
 .btn-menu span{
@@ -62,7 +62,7 @@
 
 .btn-menu:hover{
     transition: all 0.4s ease;
-    background-color: #84b !important;
+    background-color: #000 !important;
 }
 
 .btn-menu:hover .menu-superior{
@@ -73,7 +73,7 @@
 .menu {
     width: 30px;
     height: 30px;
-    background-color: #84b;
+    background-color: #000;
 }
 
 .menu-superior {
@@ -102,7 +102,7 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background-color: #84b;
+    background-color: #000;
     border-radius: 5px;
     padding: 5px;
 }
